@@ -33,7 +33,7 @@
 ## Outputs from several stages of project
 * **After Image processing and data augmentation:**
 <p align="center">
-  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/diabetic_retinopathy/media/9x9_aug.png" width="650" height="650"/>
+  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/9x9_aug.png" width="650" height="650"/>
 </p>
 <p align="center">
     <em>Processed and Augmented Images</em>
