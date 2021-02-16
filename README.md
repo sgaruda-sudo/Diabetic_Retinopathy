@@ -10,30 +10,30 @@
     * Image crop (Box crop)
     * Image Normalization 
     * Class balancing
-2. [Model Architecture](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/models/architecture.py)
-3. [Training Routine](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/4facddf6fc04bade21027e4bf66b8b0c58b93bd3/diabetic_retinopathy/main.py#L100)
+2. [Model Architecture](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/models/architecture.py#L22)
+3. [Training Routine](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/main.py#L100)
 4. Model CallBacks:
-    * [Check point Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/4facddf6fc04bade21027e4bf66b8b0c58b93bd3/diabetic_retinopathy/main.py#L84) - For saving model at desired interval(epoch frequency)
-    * [Tensorboard Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/4facddf6fc04bade21027e4bf66b8b0c58b93bd3/diabetic_retinopathy/main.py#L70) - For logging training stats,Profiling
-    * [CSV Logger Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/4facddf6fc04bade21027e4bf66b8b0c58b93bd3/diabetic_retinopathy/main.py#L95) - To save training logs in a csv file
-5. [Training from a check point](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/4facddf6fc04bade21027e4bf66b8b0c58b93bd3/diabetic_retinopathy/main.py#L104)
+    * [Check point Callback](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/main.py#L84) - For saving model at desired interval(epoch frequency)
+    * [Tensorboard Callback](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/main.py#L70) - For logging training stats,Profiling
+    * [CSV Logger Callback](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/main.py#L95) - To save training logs in a csv file
+5. [Training from a check point](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/main.py#L104)
     * Initial epoch here is the point at which the training was interrupted
-6. [Evaluation](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/evaluation/eval.py#L35)
+6. [Evaluation](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/evaluation/eval.py#L35)
     * [Confusion Matrix]()
     * [Classification Report]()
-7. [Data Augmentation](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/262628c12944c288ad392d85f4fd387ab7e04ea3/diabetic_retinopathy/input_pipeline/datasets2.py#L46)
+7. [Data Augmentation](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/input_pipeline/datasets2.py#L45)
     * Vertical Flip
     * Horizontal Flip
     * Box Crop
     * Rotate
-8. [Deep Visualization](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/visualization/deep_vis.py)
+8. [Deep Visualization](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/visualization/deep_vis.py)
     * GradCAM
-9. [Hyper Parameter Tuning](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/hyper_parameter_tuning/hparam_tuning.py)
-    * [Grid Search](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/708de4142b31b862db930f9999ff82953c0455ca/diabetic_retinopathy/hyper_parameter_tuning/hparam_tuning.py#L22) (Epochs, Number of dense neurons, stride, Learning rate)
+9. [Hyper Parameter Tuning](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/hyper_parameter_tuning/hparam_tuning.py)
+    * [Grid Search](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/hyper_parameter_tuning/hparam_tuning.py#L22) (Epochs, Number of dense neurons, stride, Learning rate)
 ## Outputs from several stages of project
 * **After Image processing and data augmentation:**
 <p align="center">
-  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/9x9_aug.png" width="650" height="650"/>
+  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/diabetic_retinopathy/media/9x9_aug.png" width="650" height="650"/>
 </p>
 <p align="center">
     <em>Processed and Augmented Images</em>
