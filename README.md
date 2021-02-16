@@ -40,10 +40,10 @@
 </p>
 
 * **Model Architecture**
-	1. [Model](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/fullmodel_tl_82_acc.png) based on ResNET50v2 (Transfer 				learning). 
+	1. [Model](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/fullmodel_tl_82_acc.png) based on ResNET50v2 (Transfer 				learning). 
 	2. Model based on  Blocks of Conv+BatchNorm+Maxpool (Only 453K parameters)
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/model_architecture.PNG" height="200"/>
+	  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/model_architecture.PNG" height="200"/>
 	</p>
 	<p align="center">
 	    <em>Custom Architecture based on blocks of Conv+BatchNorm+Maxpool (ii)</em>
@@ -54,9 +54,9 @@
 * **Training Results**
 	* Model based on  Blocks of Conv+BatchNorm+Maxpool
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/custom_model_acc.svg" height="200"/>
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/TL_epoch_accuracy.svg" height="200"/>
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/legend.PNG" />
+	  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/custom_model_acc.svg" height="200"/>
+	  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/TL_epoch_accuracy.svg" height="200"/>
+	  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/legend.PNG" />
 	</p>
 	<p align="center">
 	    <em>Accuracy plot for Custom model (on left) and ResNET50v2 based model (on right) <b> [epochs vs accuracy] </b> </em>
@@ -65,7 +65,7 @@
 * **Results and Evaluation**
 	* #### Test accuracy - 77.8% (Custom Model), 81.55% (Finetuned on ResNET50v2)
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/confusionmatrix.png" width="580" height="440"/>
+	  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/confusionmatrix.png" width="580" height="440"/>
 	</p>
 	<p align="center">
 	    <em><b>Confusion Matrix</b></em>
@@ -134,7 +134,7 @@
 * **Deep Visualization**
 
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/vis_without_axis.png" height="200"/>
+	  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/vis_without_axis.png" height="200"/>
 	</p>
 	<p align="center">
 	    <em><b>Original Image, GradCAM output, Overlay</b></em>
@@ -142,7 +142,7 @@
 * **Hyperparameter optimization**
 
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/media/Capture.PNG"  width="580" height="300"/>
+	  <img src="https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/media/Capture.PNG"  width="580" height="300"/>
 	</p>
 	<p align="center">
 	    <em><b>Original Image, GradCAM output, Overlay</b></em>
@@ -150,7 +150,7 @@
 	
 ## Instructions to run the script:
 
-Before running the script Install the [requirments](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/requirements.txt) from ```requirements.txt``` using ```pip install -r requirements.txt```
+Before running the script Install the [requirments](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/requirements.txt) from ```requirements.txt``` using ```pip install -r requirements.txt```
 
 * **Make the following changes in main.py based on the Mode(training mode, hyper parameter tuning mode, finetuning mode, evaluation mode) you want you the script in**
 
@@ -171,7 +171,7 @@ Before running the script Install the [requirments](https://github.tik.uni-stutt
 		```flags.DEFINE_boolean('Transfer_learning', True, 'to use transfer learning based model, train flag must be set to true to fine tune pretrained model')```	
 
 	4. For Evaluating the pretrained model 
-		* Change the path of the pretrained model [here](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/bc0c8dc6eae90aa3204399f7fe8413ea31574189/diabetic_retinopathy/main.py#L152) in ```main.py``` to desired path.
+		* Change the path of the pretrained model [here](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/main.py#L152) in ```main.py``` to desired path.
 
 		```flags.DEFINE_boolean('train', False, 'Specify whether to train or evaluate a model.')```
 
