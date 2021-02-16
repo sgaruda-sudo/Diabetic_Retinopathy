@@ -3,7 +3,7 @@
 </h1>
 
 ### *Poster*: [Diabetic Retinopathy Classification Using DNN](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/Poster_Diabetic_Retionopathy_.pdf)
-### **For Running the script follow the [instructions here](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/README.md#instructions-to-run-the-script) or run the code directly using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Tnioi5B035QGOyrtyuihTkdxr1zWXGsA#scrollTo=mzZlrU-lswsG)**
+### **For Running the  code directly using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Tnioi5B035QGOyrtyuihTkdxr1zWXGsA#scrollTo=mzZlrU-lswsG)**
 
 1. [Input Pipeline](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/4facddf6fc04bade21027e4bf66b8b0c58b93bd3/diabetic_retinopathy/input_pipeline/datasets2.py#L88)- (Training set Images- 413, Test set Images-103)
     * Image Resize (to 256*256)
