@@ -2,7 +2,7 @@
 	Diabetic Retinopathy Classification Using DNN 
 </h1>
 
-### *Poster*: [Diabetic Retinopathy Classification Using DNN](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/diabetic_retinopathy/Poster_Diabetic_Retionopathy_.pdf)
+### *Poster*: [Diabetic Retinopathy Classification Using DNN](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/Poster_Diabetic_Retionopathy_.pdf)
 ### **For Running the  code directly using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Tnioi5B035QGOyrtyuihTkdxr1zWXGsA#scrollTo=mzZlrU-lswsG)**
 
 1. [Input Pipeline](https://github.com/sgaruda-sudo/Diabetic_Retinopathy/blob/master/input_pipeline/datasets2.py#L88)- (Training set Images- 413, Test set Images-103)
